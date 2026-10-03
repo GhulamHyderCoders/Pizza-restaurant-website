@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pizza Restaurant</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+
+        
+      
+        body {
+          background-image:url("background.jpg");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-color: black;
+          height: 100vh;
+          overflow: auto;
+        
+          
+        }
+
+        
+      button{
+        background-color:red;
+        color:white;
+        display: block;
+        margin: 15px ;
+      }
+
+      button.active {
+        background-color: blue;
+        color: white;
+      }
+
+    .hero-content {
+      padding-top: 120px;
+    }     
+      
+    @media (max-width:576) {
+      .hero-content {
+        padding-top: 150px;
+      }
+    }
+
+     
+    </style>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-info">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="About.html">About us</a>
+        <a class="nav-link" href="Menu.html">Menu</a>
+        <a class="nav-link" href="contact.html">contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="hero-content" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
+
+  
+   <h1 text-align: left; padding-top:100px; color: black; margin: 10px;">
+    Welcome to Pizza Restaurant</h1=>
+    </div>
+     
+
+    <div data-aos="zoom-out-down" data-aos-duration="1000">
+    <p style="text-align: left; color:black; font-size: 30px;">
+        Enjoy our fresh and delicious pizza. </p>
+    <p style="text-align: left; color: black; font-size: 24px;">
+        Make with fresh ingrediens and your favorite toppings.</p>
+    <p style="text-align: left; color: black; font-size: 22px;">
+        Order now and enjoy the perfect taste.</p>
+        
+</div>
+      
+
+        <a href="About.html">
+          <button id="button" type="button">About Us</button>
+        </a>
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <script>
+  AOS.init();
+</script>
+
+      
+        <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
